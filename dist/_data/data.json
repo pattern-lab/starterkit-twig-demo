@@ -77,17 +77,5 @@
 		"last-name": "Name"
 	},
 	"hero": true,
-	"emergency" : false,
-	"touts" : [
-		{ },
-		{ },
-		{ }
-	],
-	"latest-posts" : [
-		{ },
-		{ },
-		{ },
-		{ },
-		{ }
-	]
+	"emergency" : false
 }
