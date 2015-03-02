@@ -1,6 +1,6 @@
 {
 	"name":             "pattern-lab/starterkit-twig-demo",
-	"description":      "The Twig-based demo starter kit for Pattern Lab.",
+	"description":      "The Twig-based demo StarterKit for Pattern Lab.",
 	"keywords":         ["twig", "pattern lab", "starterkit", "demo"],
 	"homepage":         "http://patternlab.io",
 	"license":          "MIT",
