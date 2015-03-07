@@ -1,6 +1,12 @@
 # Demo StarterKit for Twig
 
-This StarterKit is meant to be used as a demo that highlights how to combine Twig and Pattern Lab. It is currently very thin. We're looking for maintainers who may be interested in making this demo the equal to if not better than the Mustache demo.
+The Demo StarterKit for Twig is meant to be used as a demo that highlights how to combine Twig and Pattern Lab. It is currently very thin. We're looking for maintainers who may be interested in making this demo the equal to if not better than the Mustache demo.
+
+## Requirements
+
+The Demo StarterKit for Twig requires the following PatternEngine:
+
+* `pattern-lab/patternengine-twig`: [documentation](https://github.com/pattern-lab/patternengine-php-twig#twig-patternengine-for-pattern-lab), [GitHub](https://github.com/pattern-lab/patternengine-php-twig), [Packagist](https://packagist.org/packages/pattern-lab/patternengine-twig)
 
 ## Install
 
