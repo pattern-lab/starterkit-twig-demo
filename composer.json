@@ -24,8 +24,8 @@
 		"source":         "https://github.com/pattern-lab/starterkit-twig-demo/releases"
 	},
 	"require": {
-		"pattern-lab/core": "~0.5",
-		"pattern-lab/patternengine-twig": "~0.5"
+		"pattern-lab/core": "0.*",
+		"pattern-lab/patternengine-twig": "0.*"
 	},
 	"minimum-stability": "dev",
 	"extra": {
