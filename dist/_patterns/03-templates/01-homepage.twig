@@ -1,5 +1,5 @@
-{% extends "templates-site" %}
-{% block content %}
+{% extends "templates-page-2col" %}
+{% block hero %}
     {% if emergency %}
         {% include "molecules-alert" with emergency %}
     {% endif %}
@@ -16,22 +16,20 @@
     </div><!--end 3up-->
 
     <hr/>
-    
-    <div class="l-two-col">
-        <div class="l-main">
-            <section class="section latest-posts">
-                <h2 class="section-title">Latest Posts</h2>
-                <ul class="post-list">
-                    {% for post in latest_posts %}
-                        <li>{% include "molecules-media-block" %}</li>
-                    {% endfor %}
-                </ul>
-                <a href="#" class="text-btn">View more posts</a>
-            </section>
-        </div><!--end .l-main-->
+{% endblock %}
 
-        <div class="l-sidebar">
-            {% include "organisms-recent-tweets" %}
-        </div><!--end .l-sidebar-->
-    </div><!--end .l-two-col-->
+{% block main %}
+    <section class="section latest-posts">
+        <h2 class="section-title">Latest Posts</h2>
+        <ul class="post-list">
+            {% for post in latest_posts %}
+                <li>{% include "molecules-media-block" %}</li>
+            {% endfor %}
+        </ul>
+        <a href="#" class="text-btn">View more posts</a>
+    </section>
+{% endblock %}
+
+{% block sidebar %}
+    {% include "organisms-recent-tweets" %}
 {% endblock %}
