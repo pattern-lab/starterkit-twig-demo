@@ -1,7 +1,7 @@
 {% extends "templates-site" %}
 {% block content %}
     {% if emergency %}
-        {% include "molecules-alert:error" %}
+        {% include "molecules-alert" with emergency %}
     {% endif %}
     {% if hero %}
         {% include "molecules-block-hero" %}
@@ -16,7 +16,7 @@
     </div><!--end 3up-->
 
     <hr/>
-
+    
     <div class="l-two-col">
         <div class="l-main">
             <section class="section latest-posts">
