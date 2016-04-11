@@ -73,8 +73,8 @@
 	},
 	"seconds" : "31",
 	"author" : {
-		"first-name": "Author",
-		"last-name": "Name"
+		"first_name": "Author",
+		"last_name": "Name"
 	},
 	"hero": true,
 	"emergency" : false,
@@ -83,7 +83,7 @@
 		{ },
 		{ }
 	],
-	"latest-posts" : [
+	"latest_posts" : [
 		{ },
 		{ },
 		{ },
