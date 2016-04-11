@@ -3,11 +3,11 @@
 	"htmlClass": "pl",
 	"bodyClass": "body",
 	"img": {
-		"landscape-4x3": {
+		"landscape_4x3": {
 			"src": "../../images/fpo_4x3.png",
 			"alt": "4x3 Image"
 		},
-		"landscape-16x9": {
+		"landscape_16x9": {
 			"src": "../../images/fpo_16x9.png",
 			"alt": "16x9 Image"
 		},
@@ -73,9 +73,21 @@
 	},
 	"seconds" : "31",
 	"author" : {
-		"first-name": "Author",
-		"last-name": "Name"
+		"first_name": "Author",
+		"last_name": "Name"
 	},
 	"hero": true,
-	"emergency" : false
+	"emergency" : false,
+	"touts" : [
+		{ },
+		{ },
+		{ }
+	],
+	"latest_posts" : [
+		{ },
+		{ },
+		{ },
+		{ },
+		{ }
+	]
 }
