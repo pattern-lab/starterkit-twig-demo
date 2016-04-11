@@ -1,0 +1,14 @@
+{% extends "templates-site" %}
+{% block content %}
+	<h1 class="section-title">Our Outdoor Blog</h1>
+	<div class="l-two-col">
+		<div class="l-main">
+			{% include "organisms-latest-posts" %}
+			{% include "molecules-pagination" %}
+		</div><!--end l-main-->
+
+		<div class="l-sidebar">
+			{% include "organisms-recent-tweets" %}
+		</div><!--end l-sidebar-->
+	</div><!--end two-col-->
+{% endblock %}
