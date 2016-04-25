@@ -1,4 +1,4 @@
-{% extends "templates-page-1col" %}
+{% extends "templates-page-2col" %}
 {% block main %}
     <article class="article">
         <header class="article-header">
@@ -9,4 +9,9 @@
     </article><!--end .article-->
     {% include "molecules-social-share" %}
     {% include "organisms-comment-thread" %}
+{% endblock %}
+
+{% block sidebar %}
+    {% include "organisms-related-posts" %}
+    {% include "organisms-recent-tweets" %}
 {% endblock %}
