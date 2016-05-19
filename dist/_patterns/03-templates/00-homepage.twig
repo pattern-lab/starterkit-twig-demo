@@ -1,0 +1,40 @@
+<div class="page" id="page">
+	{% include "organisms-header" %}
+	<div role="main">
+		{% if emergency %}
+			{% include "molecules-alert:error" %}
+		{% endif %}
+		{% if hero %}
+			{% include "molecules-block-hero" %}
+		{% endif %}
+		
+		<div class="g g-3up">
+			{% for tout in touts %}
+				<div class="gi">
+					{% include "molecules-block-inset" %}
+				</div>
+			{% endfor %}
+		</div><!--end 3up-->
+
+		<hr />
+
+		<div class="l-two-col">
+			<div class="l-main">
+				<section class="section latest-posts">
+					<h2 class="section-title">Latest Posts</h2>
+					<ul class="post-list">
+						{% for post in latest_posts %}
+							<li>{% include "molecules-media-block" %}</li>
+						{% endfor %}
+					</ul>
+					<a href="#" class="text-btn">View more posts</a>
+				</section>
+			</div><!--end .l-main-->
+
+			<div class="l-sidebar">
+				{% include "organisms-recent-tweets" %}
+			</div><!--end .l-sidebar-->
+		</div><!--end .l-two-col-->
+	</div><!--End role=main-->
+	{% include "organisms-footer" %}
+</div>

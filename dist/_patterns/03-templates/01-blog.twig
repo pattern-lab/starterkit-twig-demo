@@ -1,0 +1,17 @@
+<div class="page" id="page">
+	{% include "organisms-header" %}
+	<div role="main">
+		<h1 class="section-title">Our Outdoor Blog</h1>
+		<div class="l-two-col">
+			<div class="l-main">
+				{% include "organisms-latest-posts" %}
+				{% include "molecules-pagination" %}
+			</div><!--end l-main-->
+
+			<div class="l-sidebar">
+				{% include "organisms-recent-tweets" %}
+			</div><!--end l-sidebar-->
+		</div><!--end two-col-->
+	</div><!--End role=main-->
+	{% include "organisms-footer" %}
+</div>
