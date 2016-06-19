@@ -19,7 +19,3 @@ It is recommended that you **do not** install this StarterKit as a dependency fo
 ## Edit Files
 
 After installation the files for this StarterKit can be found in `source/`.
-
-## Maintainers Wanted
-
-Interested in making the Twig demo match the Mustache demo? Drop us a note in the issues.
