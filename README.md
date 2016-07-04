@@ -1,3 +1,6 @@
+![license](https://img.shields.io/github/license/pattern-lab/starterkit-twig-demo.svg)
+[![Packagist](https://img.shields.io/packagist/v/pattern-lab/starterkit-twig-demo.svg)](https://packagist.org/packages/pattern-lab/starterkit-twig-demo) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/php.svg)](https://gitter.im/pattern-lab/php)
+
 # Demo StarterKit for Twig
 
 The Demo StarterKit for Twig is meant to be used as a demo that highlights how to combine Twig and Pattern Lab. It is currently very thin. We're looking for maintainers who may be interested in making this demo the equal to if not better than the Mustache demo.
@@ -19,7 +22,3 @@ It is recommended that you **do not** install this StarterKit as a dependency fo
 ## Edit Files
 
 After installation the files for this StarterKit can be found in `source/`.
-
-## Maintainers Wanted
-
-Interested in making the Twig demo match the Mustache demo? Drop us a note in the issues.
