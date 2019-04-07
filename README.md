@@ -1,3 +1,5 @@
+# Archived; this has moved to a [package in the main Pattern Lab monorepo](https://github.com/pattern-lab/patternlab-node/tree/dev/packages/starterkit-twig-demo)
+
 ![license](https://img.shields.io/github/license/pattern-lab/starterkit-twig-demo.svg)
 [![Packagist](https://img.shields.io/packagist/v/pattern-lab/starterkit-twig-demo.svg)](https://packagist.org/packages/pattern-lab/starterkit-twig-demo) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/php.svg)](https://gitter.im/pattern-lab/php)
 
